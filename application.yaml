@@ -14,3 +14,10 @@ eureka:
     register-with-eureka: true
     service-url:
       defaultZone: ${EUREKA_SERVER_ADDRESS:http://localhost:8761/eureka}
+
+
+microservices:
+  account: http://account-service-svc/account
+  order: http://order-service-svc/order
+  product: http://product-service-svc/product
+  payment: http://payment-service-svc/payment
